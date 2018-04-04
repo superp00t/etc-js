@@ -1,0 +1,16 @@
+{
+  "name": "etc-js",
+  "version": "1.0.0",
+  "description": "Efficient transfer coding",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superp00t/etc-js.git"
+  },
+  "author": "Joshua Achorn",
+  "license": "MIT",
+  "devDependencies": {
+    "bn.js": "git+https://github.com/indutny/bn.js.git",
+    "tweetnacl": "git+https://github.com/dchest/tweetnacl-js.git"
+  },
+  "main": "lib/index"
+}
