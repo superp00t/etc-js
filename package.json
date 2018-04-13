@@ -13,5 +13,8 @@
     "tweetnacl": "git+https://github.com/dchest/tweetnacl-js.git",
     "xmlhttprequest": "git+https://github.com/driverdan/node-XMLHttpRequest.git"
   },
-  "main": "lib/index"
+  "main": "lib/index",
+  "scripts": {
+    "compileWorker": "compileWorker.sh"
+  }
 }
