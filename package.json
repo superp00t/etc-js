@@ -8,11 +8,7 @@
   },
   "author": "Joshua Achorn",
   "license": "MIT",
-  "dependencies": {
-    "bn.js": "git+https://github.com/indutny/bn.js.git",
-    "tweetnacl": "git+https://github.com/dchest/tweetnacl-js.git",
-    "xmlhttprequest": "git+https://github.com/driverdan/node-XMLHttpRequest.git"
-  },
+  "dependencies": {},
   "main": "lib/index",
   "scripts": {
     "compileWorker": "compileWorker.sh"
