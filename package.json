@@ -12,5 +12,9 @@
   "main": "lib/index",
   "scripts": {
     "compileWorker": "compileWorker.sh"
+  },
+  "browser": {
+    "fs": false,
+    "child_process": false
   }
 }
