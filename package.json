@@ -11,7 +11,7 @@
   "dependencies": {},
   "main": "lib/index",
   "scripts": {
-    "compileWorker": "compileWorker.sh"
+    "build": "node compileWorker.js"
   },
   "browser": {
     "fs": false,
