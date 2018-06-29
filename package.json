@@ -10,9 +10,7 @@
   "license": "MIT",
   "dependencies": {},
   "main": "lib/index",
-  "scripts": {
-    "build": "node compileWorker.js"
-  },
+  "scripts": {},
   "browser": {
     "fs": false,
     "child_process": false,

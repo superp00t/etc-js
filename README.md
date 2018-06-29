@@ -11,7 +11,7 @@ const etc = require("etc-js");
 
 var b = new etc.Buffer();
 b.writeInt(50000);
-b.writeUTF8("test");
+b.writeString("test");
 
 var u = new etc.URL("http://example.com/");
 u.store("data", b);
@@ -20,5 +20,5 @@ u.toString(); // http://example.com/?data=0IYDBHRlc3Q-
 
 var d = u.load("data");
 d.readInt();  // 50000
-d.readUTF8(); // "test"
+d.readString(); // "test"
 ```
