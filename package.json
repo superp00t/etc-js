@@ -8,7 +8,9 @@
   },
   "author": "Joshua Achorn",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "text-encoding": "git+https://github.com/inexorabletash/text-encoding.git"
+  },
   "main": "lib/index",
   "scripts": {},
   "browser": {
