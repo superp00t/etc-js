@@ -12,10 +12,22 @@
     "text-encoding": "git+https://github.com/inexorabletash/text-encoding.git"
   },
   "main": "lib/index",
-  "scripts": {},
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js --mode production --display-modules"
+  },
   "browser": {
+    "crypto": false,
     "fs": false,
     "child_process": false,
-    "buffer": false
+    "buffer": false,
+    "http": false,
+    "https": false,
+    "./lib/Net/XHR/index.js": "./lib/Net/XHR/browser.js",
+    "./lib/Coding/Text/index.js": "./lib/Coding/Text/browser.js"
+  },
+  "devDependencies": {
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
   }
 }
